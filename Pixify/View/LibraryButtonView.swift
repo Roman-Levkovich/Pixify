@@ -10,7 +10,7 @@ import SwiftUI
 struct LibraryButtonView: View {
     let iconName : String
     let clickOnLibrary: () -> Void
-    
+
     var body: some View {
         Button {
             clickOnLibrary()

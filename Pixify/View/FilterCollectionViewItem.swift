@@ -11,7 +11,7 @@ struct FilterCollectionViewItem: View {
     var filterName: String
     var filteredImage: UIImage?
     var clickOnFilter: () -> Void
-    
+
     var body: some View {
         Button {
             clickOnFilter()

@@ -11,7 +11,7 @@ import UIKit
 extension UIImage {
     func save(withCompletionHandler: @escaping (String) -> Void) {
         let imageManager = ImageManager()
-    
+
         imageManager.successHandler = {
             withCompletionHandler("Успешно сохраненно")
         }

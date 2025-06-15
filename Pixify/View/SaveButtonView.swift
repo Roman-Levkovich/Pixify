@@ -10,7 +10,7 @@ import SwiftUI
 struct SaveButtonView: View {
     let iconName : String
     let clickToSave: () -> Void
-    
+
     var body: some View {
         Button {
             clickToSave()

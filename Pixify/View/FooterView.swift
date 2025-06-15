@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct FooterView: View {
-    
+
     @Binding var isShowPhotoLibrary: Bool
     var action: () -> Void
-    
+
     var body: some View {
         HStack (spacing: 40) {
             LibraryButtonView(iconName: "plus.square") {
@@ -24,9 +24,9 @@ struct FooterView: View {
                 .font(.title2)
                 .foregroundColor(.black)
                 .opacity(0.85)
-            
+
             Spacer()
-            
+
             SaveButtonView(iconName: "square.and.arrow.down") {
                 action()
             }
