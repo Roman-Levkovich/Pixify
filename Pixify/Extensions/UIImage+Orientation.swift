@@ -56,7 +56,7 @@ extension UIImage {
             bytesPerRow: 0,
             space: self.cgImage!.colorSpace!,
             bitmapInfo: self.cgImage!.bitmapInfo.rawValue)!;
-        
+
         ctx.concatenate(transform)
 
         if ( self.imageOrientation == UIImage.Orientation.left ||

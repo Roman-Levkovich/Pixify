@@ -13,7 +13,7 @@ struct LibraryView: UIViewControllerRepresentable {
 
     @Binding var selectedImage: UIImage
     @Environment(\.presentationMode) private var presentationMode
-    
+
     func makeUIViewController(context: Context) -> UIImagePickerController {
         let imgPicker = UIImagePickerController()
         imgPicker.allowsEditing = false
@@ -21,16 +21,15 @@ struct LibraryView: UIViewControllerRepresentable {
         imgPicker.delegate = context.coordinator
         return imgPicker
     }
-    
+
     func updateUIViewController(_ uiViewController: UIImagePickerController, context: Context) {
         
     }
-    
+
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
     }
-    
-    
+
     final class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
         var parent: LibraryView
         

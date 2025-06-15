@@ -19,12 +19,10 @@ class PixifyViewModel {
     }
 
     var filteredImage: UIImage = UIImage(named: "apple") ?? UIImage()
-    
+
     var filters = Filter.allCases
-    
+
     var intensity: Double = 1
-    
-    var isSelectedFilter = false
 
     var isApplyFilter = false
 

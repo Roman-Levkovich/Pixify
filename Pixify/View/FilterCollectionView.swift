@@ -22,10 +22,8 @@ struct FilterCollectionView: View {
                     ) {
                         withAnimation(.spring(duration: 1, bounce: 0.5)) {
                             viewModel.isApplyFilter = true
-                            
                         }
                         viewModel.applyFilter(selectedFilter: filter.selectedFilter, intensity: viewModel.intensity)
-                        
                     }
                 }
             }
