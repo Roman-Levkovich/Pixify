@@ -10,9 +10,22 @@
 		7ADF2B902DFC57D1009C6C55 /* Pixify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7A946EAB2DFD87AB008B9048 /* Exceptions for "Pixify" folder in "Pixify" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7ADF2B8F2DFC57D1009C6C55 /* Pixify */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7ADF2B922DFC57D1009C6C55 /* Pixify */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7A946EAB2DFD87AB008B9048 /* Exceptions for "Pixify" folder in "Pixify" target */,
+			);
 			path = Pixify;
 			sourceTree = "<group>";
 		};
@@ -252,8 +265,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pixify/Preview Content\"";
+				DEVELOPMENT_TEAM = L56N8U26WD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pixify/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We make to save photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,8 +296,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pixify/Preview Content\"";
+				DEVELOPMENT_TEAM = L56N8U26WD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pixify/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We make to save photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
